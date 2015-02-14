@@ -14,7 +14,7 @@ import java.util.Calendar;
 
 public class Photographer {
 
-    private static String SNAPSHOTS_FOLDER = "D:\\КУРСЫ\\Automation testing\\Java\\snapshot";
+    private static String SNAPSHOTS_FOLDER = "snapshot";
     protected final static Logger log = LoggerFactory.getLogger(Photographer.class);
 
     public static String getSnapshotName(String driverCommand) {

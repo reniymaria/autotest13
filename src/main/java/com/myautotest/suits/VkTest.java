@@ -5,9 +5,7 @@ import com.myautotest.screens.LoginPageScreen;
 import com.myautotest.screens.VkStartScreen;
 import com.myautotest.utils.Photographer;
 import com.myautotest.utils.PropertiesReader;
-import com.myautotest.utils.WebDriverRunner;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class VkTest {
@@ -48,11 +46,12 @@ public class VkTest {
         Photographer.doScreenshot("screenshot");
     }
 
-
+/*
     @AfterTest
     public void tearDown() {
         //закрываем браузер. в этом случае обращаться к драйверу можно (но не напрямую, как видите)
         WebDriverRunner.stopWebDriver();
     }
+    */
 
 }
